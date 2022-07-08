@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "ec2" {
-  source = "git@github.com:rsalesfreitas/descomplicando_terraform_module_ec2.git?ref=main"
+  source = "git@github.com:rsalesfreitas/descomplicando_terraform_module_ec2.git?ref=v.01"
   app_name = "turma1"
   aws_instance = "t3.micro"
 }
